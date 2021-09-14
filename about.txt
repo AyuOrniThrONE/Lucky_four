@@ -1,0 +1,5 @@
+This git is based on a idea to create a code for finding the number of 4 occuring in the code.
+This problem is on CODECHEF and I'm having trouble submiting this code.
+As they saying the result after excecution is Wrong.
+If anyone got idea of where the fault is PULL request Immediatly. please
+ 
