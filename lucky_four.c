@@ -9,23 +9,20 @@ int main()
         scanf("%d", &n);
     label:
     label1:
-    //labe3l:
+    
+    
         remain += n % 10;
         n /= 10;
-        // while (n==0){
-        //     if (remain == 0)
-        //     {
-        //         occ++;
-        //         remain=0;
-        //         goto labe3l;
-        //     }
-        // }
-        while (n >= 4)
+        
+        while (n > 0)
         {
             if (remain == 4)
             {
                 occ++;
                 remain=0;
+                if(n/4==1){
+                    occ++;
+                }
                 goto label;
             }
             
